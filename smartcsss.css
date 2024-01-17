@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Happy+Monkey&family=Poppins:wght@200;300;400&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    font-family: 'Gloock', serif;
+    text-align: center;
+    background: rgb(209, 214, 234);
+    color: black;
+    margin: 0;
+}
+header{
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-bottom:10px gold royalblue ;
+}
+@media screen and (max-width: 938px) {
+    .foot {
+      padding-left: 20px;
+      display:block;
+      width: 100%;
+    }
+  }
+.nav-list:hover{
+    font-size: medium;
+    font-weight: bolder;
+    
+}
+.menu{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+h1{
+    font-size: 30px;
+}
+
+.req-demo{
+    float: right;
+    padding: 15px;
+    font-size: small;
+    font-weight:bolder;
+    color: white;
+}
+
+.req-button{
+    display: inline;
+    margin: 10px;
+    border: 1px solid royalblue;
+    border-radius: 5px;
+    background-color: royalblue;
+}
+.logo{
+    max-width: 200px;
+    margin:0;
+    padding-left: 0px;
+}
+.nav-logo{
+    padding: 0px;
+    float:left;
+}
+.head{list-style: none;
+     display: flex;
+     float: right;
+}
+.foot{
+    text-align: left;
+    align-items: center;
+    justify-self: center;
+    display: grid;
+    position:fixed;
+    gap:30px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: auto;
+    margin: 0 auto;
+    max-width: 100%;
+    padding-left: 100px;
+}
+.foot-list{
+    position: fixed;
+    list-style: none;
+    float: left;
+    bottom:50px ;
+    text-align: left;
+}
+a{text-decoration: none;
+    color: black;
+}
+.nav-list{
+    padding: 16px;
+    font-size:small;
+    font-weight: bold;
+
+}
+.main{
+    overflow: hidden;
+    background:linear-gradient(270deg, white, rgb(246, 230, 188));
+    height: 400px;
+}
+.home__container{
+    padding:60px 0px 0px 40px;
+    display: flex;
+    align-items: center;
+}
+img{
+    max-width: 60%;
+    height: auto;
+}
+.home__desc{
+    float: left;
+}
+.csi{
+    color: royalblue;
+}
+.about__desc-add{
+    text-align: left;
+    padding-left: 30px;
+}
+#contact__form{
+    text-align: left;
+    padding-left: 20%;
+}
+label{display: block;
+    font-weight: bold;
+}
+#name{
+    width: 40%;
+}
+#email{
+    width: 40%;
+}
+#message{
+    width: 40%;
+}
+.fields{
+    padding-top: 10px;
+}
+
+.foot-nav{
+    font-size:smaller;
+    font-weight:bold;
+}
+.downloads{
+    font-size: x-small;
+    font-weight: bold;
+    padding-top:30px;
+}
+.download-img{
+    max-width: 120px;
+}
+.dwn-links{
+    display: flex;
+    justify-content: center;
+    gap:20px
+}
+.dwn-des{
+    padding: 10px;
+}
+.dwn-btn{
+    padding: 5px;
+}
+.foot-info{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    font-size: smaller;
+    
+}
+.foot-message{
+    width: 400px;
+    position: fixed;
+    bottom: 20px;
+    padding-left: 50px;
+}
+#keypa{
+    font-family:'Poppins', sans-serif;
+    font-size:12px;
+    font-weight: 400;
+}
+.keypa__social-link{
+    background-color: white;
+    color: rgb(51, 87, 195);
+    width: max-content;
+   padding: 5px 7px;
+   border-radius:20px;
+   display: inline;
+   font-size: 1rem;
+   transition: .4s;
+}
+.foot-social-link{
+   display: flex;
+   gap: 20px;
+   justify-content:center;
+}
+.foot-img{
+    max-width: 80px;
+}
